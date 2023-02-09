@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: url(images/banner.png) no-repeat;
+    background-size: cover;
+}
+
+/* Navigation */
+
+nav{
+    height: 90px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 80px;
+    padding: 0 10px;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding:10px 30px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav li:hover{
+    background-color: tomato;
+    padding:10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Banner */
+
+.banner{
+    height: 500px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section-text{
+    padding-right: 130px;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    text-align: right;
+}
+
+.banner-section-text h1{
+    font-size: 35px;
+}
+
+.primary-btn{
+    background-color: tomato;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* person section */
+
+.person-section{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.person-section-image{
+    width: 50%;
+}
+
+.person-section-image img{
+    height: 450px;
+    padding-left: 25%;
+}
+
+.person-section-text{
+    width: 30%;
+}
+
+.person-section-text h1{
+    font-size: 35px;
+}
+
+.person-section-text li{
+    list-style: none;
+}
+
+.person-section-text li i{
+    color: greenyellow;
+    font-size: small;
+}
+
+/* My Plan Section */
+
+.my-plan{
+    padding-top: 80px;
+    text-align: center;
+    height: 300px;
+    width: 75%;
+    margin: auto;
+}
+
+.my-plan h1{
+    font-size: 35px;
+    text-decoration: underline double lightgreen;
+}
+
+.my-plan-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-plan img{
+    height: 50px;
+}
+ 
+.my-plan-container h3{
+    color:gray;
+}
+
+/* watch section */
+
+.watch{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.724), rgba(245, 222, 179, 0)), url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 210px;
+    width: 70%;
+    margin: auto;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.watch-text-container{
+    width: 400px;
+    padding: 15px 0 0 25px;
+}
+
+.watch-text-container h1{
+    font-size: 35PX;
+    color:white;
+}
+
+.btn{
+    background-color: white;
+    color: tomato;
+}
+
+/* extra-feature */
+.extra-feature{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 100px auto;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.724), rgba(245, 222, 179, 0));
+    border-radius: 10px;
+    padding:0 40px;
+}
+
+.positive-vive-text{
+    width: 50%;
+}
+
+.positive-vive-text h1{
+    font-size: 40px;
+}
+
+iframe{
+    border-radius: 10px ;
+}
+/* footer section */
+footer{
+    margin-top: 100px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    padding: 100px;
+}
+
+.contact{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.contact h1{
+    font-size: 40px;
+
+}
+
+.contact p{
+    width: 350px;
+}
+
+footer input[type = "email"]{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #000;
+    color: white;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+footer input[type = "email"]::placeholder{
+    color: white;
+}
+
+.icon-container img{
+    margin-right: 5px;
+}
